@@ -1,0 +1,103 @@
+#landing{
+	position   : fixed;
+	display    : inline-block;
+	background : #11411d;
+	color      : #fff;
+	width      : 500px;
+	max-width  : 100%;
+	height     : 90vh;
+	box-sizing : border-box;
+	top        : 0;
+	bottom     : 0;
+	left       : 0;
+	right      : 0;
+	margin     : auto;
+	overflow   : hidden;
+
+	box-shadow:0 0 17px 4px #002163;
+
+	border-radius : 30px;
+	border-top    : 10px solid #ff2323;
+	border-bottom : 10px solid #f6f305;
+	border-left   : 10px solid #28aabf;
+	border-right  : 10px solid #a84de9;
+}
+
+#landing .title{
+	text-align  : center;
+	padding     : 4px 10px 7px;
+	background  : rgba(0,0,0,0.3);
+	color       : #bd7e4f;
+
+	text-shadow : 1px  0px 1px #fff,
+				 -1px  0px 1px #fff,
+				  0px  1px 1px #fff,
+				  0px -1px 1px #fff,
+                  2px  0px 1px #fff,
+                 -2px  0px 1px #fff,
+                  0px  2px 1px #fff,
+                  0px -2px 1px #fff;
+
+	border-bottom : 1px solid rgba(255,255,255,0.25);
+}
+
+#landing .title span{
+	font-family : "Sigmar One";
+	font-family : "Monofett";
+	font-size   : 32px;
+
+	margin : 0 3px;
+}
+
+#landing .body{
+	height   : calc(100% - 48px);
+	overflow : auto;
+}
+
+#landing .section{
+	background : rgba(0,0,0,0.15);
+	border     : 1px solid rgba(255,255,255,0.25);
+	margin     : 10px;
+}
+
+#landing .section .label{
+	background    : #333362;
+	padding       : 5px;
+	color         : #f7ceff;
+	border-bottom : 1px solid rgba(255,255,255,0.15);
+}
+
+#landing .section .select{
+	padding    : 5px;
+	background : #2e726d;
+}
+
+#landing .section .select select{
+	width      : 100%;
+	background : #624917;
+	color      : #fff;
+	padding    : 2px;
+	border     : 1px solid rgba(255,255,255,0.25);
+
+	-webkit-appearance : none;
+	-moz-appearance    : none;
+	text-indent        : 1px;
+	text-overflow      : '';
+}
+
+#landing .section .select select:hover{
+	background : #8f9b1e;
+}
+
+#landing .submit{
+	text-align : center;
+	background : #1778b6;
+	padding    : 5px;
+	margin     : 10px;
+	border     : 1px solid rgba(255,255,255,0.3);
+	cursor     : pointer;
+}
+
+#landing .submit:hover{
+	background : #1bb617;
+}
