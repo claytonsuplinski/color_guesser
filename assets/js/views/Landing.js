@@ -5,8 +5,7 @@ QUE.views.landing.draw = function(){
 		'<div id="landing">' +
 			'<div class="title">' +
 				'Guess The Color!'.split('').map(function(x){
-					var color = JL.functions.random_color({ obj : true });
-					return '<span style="color:rgb(' + ['r','g','b'].map( c => color[c] / 1.5 ).join(',') + ');">' + x + '</span>';
+					return '<span style="color:' + JL.functions.random_color({ factor : 125 }) + ';">' + x + '</span>';
 				}).join('') + 
 			'</div>' +
 			'<div class="body">' + 
